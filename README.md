@@ -1,5 +1,6 @@
 # DGAdvertScrollView
-scrollView GUI Widget which helps you display automatic cycle ads easier
+   an automatic rolling scrollView with pageControl indicator
+   
 ## Requirements
 
 DGAdvertScrollView works on iOS 6.0  and later version . It depends on the following Apple frameworks, which should already be included with most Xcode templates:
