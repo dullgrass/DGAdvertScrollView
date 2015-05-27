@@ -19,7 +19,7 @@ You will need LLVM 3.0 or later in order to build DGAdvertScrollView.
 
 1. Add a pod entry for DGAdvertScrollView to your Podfile `pod 'DGAdvertScrollView'`
 2. Install the pod(s) by running `pod install`.
-3. Include DGAdvertScrollView wherever you need it with `#import "DGAdvertScrollView.h"`.
+3. Include DGAdvertScrollView wherever you need it with `#import "DGBannerView.h"`.
 
 
 ### Copy the DGAdvertScrollView folder to your project and add related library DDPageControl and SDWebImage
