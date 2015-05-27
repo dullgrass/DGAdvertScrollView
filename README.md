@@ -22,13 +22,17 @@ You will need LLVM 3.0 or later in order to build DGAdvertScrollView.
 3. Include DGAdvertScrollView wherever you need it with `#import "DGBannerView.h"`.
 
 
-### Copy the DGAdvertScrollView folder to your project and add related library DDPageControl and SDWebImage
+### Manually
 
+   Copy the DGAdvertScrollView folder to your project and add related library DDPageControl and SDWebImage
+   
+## How to Use
+   Briefly,you can use it with both code and storyboard.
 ```objective-c
-#import "DGBannerView.h"
+   #import "DGBannerView.h"
 
- id advData = [DGUtils readDataFromJsonWithFileName:@"adverData"];
-  if ([advData isKindOfClass:[NSArray class]]) {
+   id advData = [DGUtils readDataFromJsonWithFileName:@"adverData"];
+   if ([advData isKindOfClass:[NSArray class]]) {
     DGBannerView *banner = [[DGBannerView alloc] initWithFrame:CGRectMake(0, 200, self.view.dgWidth, 160)];
     [self.view addSubview:banner];
     banner.bannerArray=advData;
