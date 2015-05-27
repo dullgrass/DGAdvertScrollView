@@ -1,0 +1,18 @@
+PODS:
+  - DDPageControl (0.1)
+  - SDWebImage (3.7.1):
+    - SDWebImage/Core (= 3.7.1)
+  - SDWebImage-Category (1.4):
+    - SDWebImage
+  - SDWebImage/Core (3.7.1)
+
+DEPENDENCIES:
+  - DDPageControl (~> 0.1)
+  - SDWebImage-Category (~> 1.4)
+
+SPEC CHECKSUMS:
+  DDPageControl: 60c7d350477922b1e67fcf927f7e50eddc7dd207
+  SDWebImage: ed3095af2ff88b436426037444979b917f6c5575
+  SDWebImage-Category: 1f1c00880a538f7faf5b726e1559cf1ca555c553
+
+COCOAPODS: 0.37.1
